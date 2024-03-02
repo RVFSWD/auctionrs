@@ -1,0 +1,500 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Antonio&family=Bilbo+Swash+Caps&family=Days+One&family=Fjalla+One&family=Josefin+Sans&family=Poppins&family=Tangerine:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+h1 {
+    font-weight: 800;
+}
+
+p {
+    font-weight: 500;
+}
+
+h4 {
+    color: black;
+}
+
+h5 {
+    color: black;
+}
+
+body {
+    background-color: #fff;
+    color: black;
+    font-family: sans-serif;
+}
+
+/* navbar #################### */
+
+.navbar-nav a {
+    margin-right: 30px;
+    color: black;
+    font-size: 17px;
+}
+
+.nav-items {
+    margin: 4px 5px;
+}
+
+.join-btn {
+    padding: 2px 0px;
+}
+
+.join-btn ul a {
+    color: #212529;
+    margin: 0px 10px;
+}
+
+.join-btn ul a:hover {
+    color: #212529;
+}
+
+/* carousel  ##############################*/
+
+.tms-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    width: 50%;
+}
+
+.gs-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    width: 50%;
+}
+
+.carousel::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6); 
+}
+
+.carousel * {
+    z-index: 10;
+}
+
+.carousel .carousel-caption {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 90%;
+    padding: 0 20px;
+}
+
+.carousel .carousel-caption h3 {
+    margin-top: 150px;
+    font-family: poppins;
+    font-size: 75px;
+    color: #fff;
+}
+
+.carousel .carousel-caption h5, h4 {
+    font-size: 35px;
+    max-width: 1200px;
+    margin: 20px 55px;
+    color: #fff;
+}
+
+.carousel .carousel-caption h5 {
+    font-size: 25px;
+    max-width: 1200px;
+    margin: 20px 55px;
+    color: #fff;
+}
+
+/* content1 ######################### */
+
+.content1-con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 100px auto;
+}
+
+.content1-con h2 {
+    font-size: 70px;
+    font-weight: 700;
+}
+
+/* content2 ########################## */
+
+.content2-con .container {
+    background-color: #fff;
+    width: 80%;
+    padding: 40px 25px 20px;
+    border-radius: 10px;
+}
+
+.content2-con h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #212529;
+}
+
+.content2-con h3 {
+    font-size: 30px;
+    font-weight: 700;
+    margin: 50px auto;
+    color: dimgray;
+}
+
+.content2-con img {
+    padding: 5px;
+    border-radius: 10px;
+}
+
+/* show-header ###################### */
+
+.show-header {
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+    color: #fff;
+    padding: 100px 20px 100px;
+    margin: 100px 0px 50px;
+}
+
+.show-header h2 {
+    font-size: 35px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 150px;
+    
+}
+
+.show-header p {
+    font-size: 17px;
+    /* font-weight: 500; */
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 100px;
+}
+
+/* Showcase2-section ################## */
+
+.showcase-section {
+    margin-top: 20px auto;
+}
+
+.showcase-container {
+    margin: 5px auto;
+}
+
+.showcase-image {
+    padding: 0px;
+}
+
+.showcase-text  {
+    padding: 25px 30px;
+}
+
+.showcase-section h2 {
+    font-size: 30px; 
+    padding-bottom: 30px;
+    color: #fff;
+}
+
+.showcase-section p {
+    font-size: 17px;
+    padding-bottom: 30px;
+    color: #fff;
+}
+
+.showcase-section .showcase-row {
+    background-color: #212529;
+}
+
+
+
+/* footer #################### */  
+
+.followus-container {
+    background-color: #f5f5f5;
+
+}
+
+
+.followus-col ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.followus-col ul i {
+    
+    color: #212529;
+    text-decoration: none;
+    font-size: 30px;
+    margin: 5px 20px;
+}
+
+.followus-col hr {
+    width: 100%;
+}
+
+.footer h3 {
+    font-size: 25px;
+}
+
+.footer h2 {
+    font-size: 17px;
+    color: black;
+}
+
+.footer ul a {
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+.footer ul i:hover {
+    color: #DC3545;
+  }
+
+.footer ul, p {
+    font-size: 10px;
+}
+
+.footer .copyright-container p {
+    font-size: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    .footer-row .footer-col {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+              
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .footer-row .footer-col {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+              
+    }
+}
+
+/* properties ####################################### */
+
+.header-con h4 {
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 30px 150px 10px 0px;
+}
+
+.header2-con h4 {
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 30px 150px 10px 0px;
+}
+
+.cards1-con h5 {
+    color: dimgray;
+    font-size: 18px;
+    margin: 10px auto;
+}
+
+.cards1-con h4 {
+    color: black;
+    font-size: 17px;
+    font-weight: 600;
+    margin: 10px auto;
+}
+
+.cards1-con h3 {
+    color: black;
+    font-size: 16px;
+    margin: 10px auto;
+}
+
+.cards2-con h5 {
+    color: dimgray;
+    font-size: 18px;
+    margin: 10px auto;
+}
+
+.cards2-con h4 {
+    color: black;
+    font-size: 17px;
+    font-weight: 600;
+    margin: 10px auto;
+}
+
+.cards2-con h3 {
+    color: black;
+    font-size: 16px;
+    margin: 10px auto;
+}
+
+/* company ############################################ */
+
+/* showcase 3 ################### */
+
+.about-section h1 {
+    font-size: 35px;
+    padding-bottom: 10px;
+}
+
+.about-section h6 {
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.about-section p {
+    font-size: 17px;
+    padding-bottom: 15px;
+}
+
+/* contact us ########################################## */
+
+/* concact-con  */
+
+.contact-con h3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+    margin: 25px 40px;
+}
+
+.contact-con p {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 17px;
+    margin: 25px 40px;
+}
+
+.contact-con {
+    margin: 10px auto;
+    width: 70%;
+}
+
+.contact-con input {
+    border-color: #212529;
+}
+
+.form-floating textarea {
+    border-color: #212529;
+}
+
+.form-btn a {
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+/* login ################################## width: 30%;*/
+
+ .form-con {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 150px auto;
+    padding: 50px 45px;
+    width: 30%;
+    background-color: #fff;
+    color: #212529;
+    border: 1px solid dimgray;
+    border-radius: 10px;
+}
+
+.form-con label {
+    color: dimgray;
+}
+
+.form-con input {
+    border-color: dimgray;
+}
+
+.form-con h3 {
+    font-size: 25px;
+    font-weight: 600;
+    color: #212529;
+}
+
+.form-con p {
+    font-size: 17px;
+    color: #212529;
+}
+
+.form-con a {
+    font-size: 17px;
+    font-weight: 600;
+    color: #DC3545;
+    text-decoration: none;
+} 
+
+/* register ################################## */
+
+.form2-con {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 80px auto;
+    padding: 50px 45px;
+    width: 35%;
+    background-color: #fff;
+    color: #212529;
+    border: 1px solid dimgray;
+    border-radius: 10px;
+}
+
+.form2-con label {
+    color: dimgray;
+}
+
+.form2-con input {
+    border-color: dimgray;
+}
+
+.form2-con h3 {
+    font-size: 25px;
+    font-weight: 600;
+    color: #212529;
+}
+
+.form2-con p {
+    font-size: 17px;
+    color: #212529;
+}
+
+.form2-con a {
+    font-size: 17px;
+    font-weight: 600;
+    color: #DC3545;
+    text-decoration: none;
+}
